@@ -1,0 +1,64 @@
+body .container div {
+    border-radius: 50%;
+    height: 4rem;
+    width: 4rem;
+    min-width: 4rem;
+    color: #24252a;
+    font-style: sans-serif;
+    font-size: 3rem;
+    text-align: center;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    position: fixed;
+    top: 20rem;
+    left: 20rem;
+    display: flex;
+    width: 300px;
+    height: 64px;
+}
+
+.black {
+    background: #24252a;
+}
+
+.darkgray {
+    position:absolute;
+    left: 0;
+    background: #655e6e;
+}
+
+.lightgray {
+    position:absolute;
+    left: 48px;
+    background: #9ea2b3;
+}
+
+.white {
+    position:absolute;
+    left: 96px;
+    background: #f5f3fb;
+}
+
+.turquoise {
+    position:absolute;
+    left: 144px;
+    background: #5ce0ed;
+}
+
+.blue {
+    position:absolute;
+    left: 192px;
+    background: #0088a9;
+}
+
+.orange {
+    position:absolute;
+    left: 240px;
+    background: #ff5301;
+}
